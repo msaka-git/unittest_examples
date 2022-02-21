@@ -1,4 +1,4 @@
-# new classs
+# new clasass
 class PhoneBook:
     numbers = {}
     # def __int__(self):
