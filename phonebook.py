@@ -1,4 +1,5 @@
 # new clasass
+password = "sdada3422"
 class PhoneBook:
     numbers = {}
     # def __int__(self):
