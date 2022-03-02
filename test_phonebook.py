@@ -5,7 +5,10 @@ from phonebook import PhoneBook
 class PhoneBookTest(unittest.TestCase):
     def setUp(self) -> None:
         self.phonebook = PhoneBook()
-    
+
+    def tearDown(self) -> None:
+        pass
+
     def test_lookup_by_name(self):
         self.phonebook.add("Osman","12345")
         Number = phonebook.lookup("Osman")
