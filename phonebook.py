@@ -15,6 +15,6 @@ class PhoneBook:
             for name2, number2 in self.numbers.items():
                 if name1 == name2:
                     continue
-                if number1.startswith(number2)
+                if number1.startswith(number2):
                     return False
         return True
